@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "benchmark": "^2.1.0",
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-jade": "^0.5.1",
-    "grunt-typescript": "^0.8.0",
-    "jquery": "^2.2.2"
+    "grunt-typescript": "^0.8.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -19,6 +17,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tom Dutton",
   "license": "ISC"
 }
