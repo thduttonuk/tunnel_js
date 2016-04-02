@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                 src: ['src/**/*.ts'],
                 dest: 'out/tunnel.js',
                 options: {
-                    module: 'amd', //or commonjs 
+                    module: 'amd',
                 }
             }
         },
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         jade: {
             html: {
                 files: {
-                    'out/docs/': ['src/docs/*.jade']
+                    'out/docs/': ['src/docs/**/*.jade']
                 },
                 options: {
                     client: false
@@ -43,5 +43,4 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-jade');
 
     grunt.registerTask('default', ['typescript:base', 'uglify', 'jade']);
-
 };
