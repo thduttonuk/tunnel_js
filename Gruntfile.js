@@ -28,7 +28,8 @@ module.exports = function(grunt) {
         jade: {
             html: {
                 files: {
-                    'out/docs/': ['src/docs/**/*.jade']
+                    'out/docs/': ['src/docs/*.jade'],                    
+                    'out/docs/views': ['src/docs/views/*.jade']
                 },
                 options: {
                     client: false
